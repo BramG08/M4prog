@@ -1,0 +1,1 @@
+SELECT BallHandle,Shooting,Physical FROM `Basketball`
