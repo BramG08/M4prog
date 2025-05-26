@@ -1,0 +1,1 @@
+SELECT h.hobbyid, h.hobby, p.id AS persoonid, p.naam FROM hobby AS h JOIN persoon AS p ON h.hobbyid = p.hobbyid;
