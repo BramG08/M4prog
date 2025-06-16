@@ -1,0 +1,13 @@
+CREATE TABLE `huis` (
+`id` INT NOT NULL AUTO_INCREMENT,
+`straat` VARCHAR(120) NOT NULL,
+`huisnummer` INT NOT NULL,
+PRIMARY KEY (`id`),
+UNIQUE INDEX `id_huis_UNIQUE` (`id` ASC) VISIBLE)
+ENGINE = InnoDB;
+
+
+
+INSERT INTO `huis` (`id`, `straat`, `huisnummer`) VALUES
+(1, 'ruiterweg', 1),
+(2, 'contactweg', 2)
