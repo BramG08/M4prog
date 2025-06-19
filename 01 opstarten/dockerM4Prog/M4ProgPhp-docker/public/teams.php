@@ -1,5 +1,7 @@
 <?php
 
+
+
 include_once '../source/database.php';
 
 $connection = database_connect();
@@ -13,14 +15,14 @@ print_r($result->fetch_all());
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teamledem</title>
+    <title>$teamleden</title>
 </head>
 <body>
     <h1>
         Teamleden
     </h1>
     <h2>
-   <?= $teamleden ?>
+  <p><?= $teamlid[0] ?></p> 
     </h2>
     <p>
 
